@@ -1,0 +1,23 @@
+{
+    "01_ClarinetBb.aiff": "Clarinet",
+    "02_FluteFlutterTongued.aiff": "Flute",
+    "03_FrenchHorn.aiff": "Horn",
+    "04_Harpsichord.aiff": "Harpsichord",
+    "05_Harp.aiff": "Harp",
+    "06_Piano.aiff": "Piano",
+    "07_RecorderBaroqueTenor.aiff": "Recorder",
+    "08_SaxTenorGrowls.aiff": "Saxophone",
+    "09_TrumpetMuted.aiff": "Trumpet",
+    "10_ViolinMartele.aiff": "Violin",
+    "11_Celesta.aiff": "Celesta",
+    "12_Cuica.aiff": "Cuica",
+    "13_CymbalBowed.aiff": "Cymbal",
+    "14_CymbalStruck.aiff": "Cymbal",
+    "15_LogDrum.aiff": "LogDrum",
+    "16_Snare.aiff": "Snare",
+    "17_SteelDrum.aiff": "SteelDrum",
+    "18_TubularBells.aiff": "TubularBells",
+    "19_Tympani.aiff": "Tympani",
+    "20_VibraphoneBowed.aiff": "Vibraphone",
+    "comment": "data from McGill University Master Samples (MUMS) library; instrument details and playing techniques are suggested in the file names; FrenchHorn annotated as Horn for consistency; baroque defines a finger style for the recorder, the other style is german; the steel drum is more correctly called a steel pan, says Wikipedia."
+}

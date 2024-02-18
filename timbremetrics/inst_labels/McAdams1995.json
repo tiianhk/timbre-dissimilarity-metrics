@@ -1,0 +1,21 @@
+{
+    "01_dn_hrn.aiff": "Horn",
+    "02_dn_tpt.aiff": "Trumpet",
+    "03_dn_tbn.aiff": "Trombone",
+    "04_dn_hrp.aiff": "Harp",
+    "05_dn_tpr.aiff": "nan",
+    "06_dn_ols.aiff": "nan",
+    "07_dn_vbs.aiff": "Vibraphone",
+    "08_dn_sno.aiff": "nan",
+    "09_dn_hcd.aiff": "Harpsichord",
+    "10_dn_can.aiff": "EnglishHorn",
+    "11_dn_bsn.aiff": "Bassoon",
+    "12_dn_cnt.aiff": "Clarinet",
+    "13_dn_vbn.aiff": "nan",
+    "14_dn_obc.aiff": "nan",
+    "15_dn_gtr.aiff": "Guitar",
+    "16_dn_stg.aiff": "String",
+    "17_dn_pno.aiff": "Piano",
+    "18_dn_gtn.aiff": "nan",
+    "comment": "sounds are synthesized on a Yamaha TX802 FM Tone Generator; sounds with instrument labels are designed to imitate traditional western instruments; sounds with the nan label are designed as hybrids of two traditional instruments."
+}

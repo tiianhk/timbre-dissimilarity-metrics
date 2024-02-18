@@ -1,0 +1,14 @@
+{
+    "01_Piano.A3.aiff": "Piano",
+    "02_Cello.A3.aiff": "Cello",
+    "03_Violin.A3.aiff": "Violin",
+    "04_Vibraphone.A3.aiff": "Vibraphone",
+    "05_Marimba.A3.aiff": "Marimba",
+    "06_Oboe.A3.aiff": "Oboe",
+    "07_Clarinet.A3.aiff": "Clarinet",
+    "08_Trumpet.A3.aiff": "Trumpet",
+    "09_Bassoon.A3.aiff": "Bassoon",
+    "10_Trombone.A3.aiff": "Trombone",
+    "11_Saxophone.A3.aiff": "Saxophone",
+    "comment": "data from the RWC Music Database; all notes are staccato."
+}

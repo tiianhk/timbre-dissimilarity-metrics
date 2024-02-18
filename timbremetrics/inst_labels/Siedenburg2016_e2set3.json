@@ -1,0 +1,17 @@
+{
+    "Sim01_BCL.aiff": "Clarinet",
+    "Sim04_HCD.aiff": "Harpsichord",
+    "Sim07_MBA.aiff": "Marimba",
+    "Sim09_TRP.aiff": "Trumpet",
+    "Sim10_VCE.aiff": "Cello",
+    "Sim11_VCP.aiff": "Cello",
+    "Sim14_VLP.aiff": "Violin",
+    "Sim15_BCL_Imp7.aiff": "nan",
+    "Sim16_HRP_Cont3.aiff": "nan",
+    "Sim17_Imp1_VCE.aiff": "nan",
+    "Sim18_BSN_HCD.aiff": "nan",
+    "Sim19_Mixed5_TRP.aiff": "nan",
+    "Sim20_HRN_Mixed5.aiff": "nan",
+    "Sim21_VCE_VIB.aiff": "nan",
+    "comment": "harpsichord sample is from Logic Professional 7; all other acoustic samples are from the Vienna Symphonic Library; clarinet: bass clarinet; Sim11 and Sim14 are pizzicato; Sim15 - Sim21 are digitally modified to aviod perceptual familiarity."
+}

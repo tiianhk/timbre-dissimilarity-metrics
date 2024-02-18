@@ -1,0 +1,21 @@
+{
+    "01_BambooChimesHit.aiff": "BambooChimes",
+    "02_BongoSmall.aiff": "Bongo",
+    "03_Castanets.aiff": "Castanets",
+    "04_Celesta.aiff": "Celesta",
+    "05_Cuica.aiff": "Cuica",
+    "06_CymbalBowed.aiff": "Cymbal",
+    "07_CymbalStruck.aiff": "Cymbal",
+    "08_LogDrum.aiff": "LogDrum",
+    "09_Marimba.aiff": "Marimba",
+    "10_Snare.aiff": "Snare",
+    "11_SteelDrum.aiff": "SteelDrum",
+    "12_TambourinePop.aiff": "Tambourine",
+    "13_TamTam.aiff": "TamTam",
+    "14_TempleBlock.aiff": "TempleBlock",
+    "15_TubularBells.aiff": "TubularBells",
+    "16_Tympani.aiff": "Tympani",
+    "17_VibraphoneBowed.aiff": "Vibraphone",
+    "18_VibraphoneHardMallet.aiff": "Vibraphone",
+    "comment": "tam-tam is recorded at IRCAM, others are from McGill University Master Samples (MUMS) library; instrument details and playing techniques are suggested in the file names."
+}

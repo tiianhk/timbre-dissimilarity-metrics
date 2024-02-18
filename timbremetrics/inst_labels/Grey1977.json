@@ -1,0 +1,19 @@
+{
+    "BN.aiff": "Bassoon",
+    "C1.aiff": "Clarinet",
+    "C2.aiff": "Clarinet",
+    "EH.aiff": "EnglishHorn",
+    "FH.aiff": "Horn",
+    "FL.aiff": "Flute",
+    "O1.aiff": "Oboe",
+    "O2.aiff": "Oboe",
+    "S1.aiff": "Cello",
+    "S2.aiff": "Cello",
+    "S3.aiff": "Cello",
+    "TM.aiff": "Trombone",
+    "TP.aiff": "Trumpet",
+    "X1.aiff": "Saxophone",
+    "X2.aiff": "Saxophone",
+    "X3.aiff": "Saxophone",
+    "comment": "two oboes: different instruments and players; two clarinets: E-flat clarinet and bass clarinet; three saxophones: two alto (one instrument played at p and mf) and one soprano; trombone: muted; three celli: one instrument played normally, muted sul tasto, and sul ponticello; FrenchHorn annotated as Horn for consistency."
+}

@@ -1,0 +1,19 @@
+{
+    "BNt.aiff": "nan",
+    "C1.aiff": "Clarinet",
+    "C2t.aiff": "nan",
+    "EH.aiff": "EnglishHorn",
+    "FHt.aiff": "nan",
+    "FL.aiff": "Flute",
+    "O1t.aiff": "nan",
+    "O2.aiff": "Oboe",
+    "S1t.aiff": "nan",
+    "S2t.aiff": "nan",
+    "S3.aiff": "Cello",
+    "TMt.aiff": "nan",
+    "TPt.aiff": "nan",
+    "X1.aiff": "Saxophone",
+    "X2.aiff": "Saxophone",
+    "X3.aiff": "Saxophone",
+    "comment": "the nan label is for sounds that are digitally modified; clarinet: E-flat clarinet; three saxophones: two alto (one instrument played at p and mf) and one soprano; cello: played muted sul tasto."
+}

@@ -1,0 +1,20 @@
+{
+    "01_ClarinetBb.aiff": "Clarinet",
+    "02_CrumhornTenor.aiff": "Crumhorn",
+    "03_EnglishHorn.aiff": "EnglishHorn",
+    "04_FluteFlutterTongued.aiff": "Flute",
+    "05_FluteNoVibe.aiff": "Flute",
+    "06_FrenchHorn.aiff": "Horn",
+    "07_Harpsichord.aiff": "Harpsichord",
+    "08_Harp.aiff": "Harp",
+    "09_OrganBaroquePlenum.aiff": "Organ",
+    "10_Piano.aiff": "Piano",
+    "11_RecorderBaroqueTenor.aiff": "Recorder",
+    "12_SaxAlto.aiff": "Saxophone",
+    "13_SaxTenorGrowls.aiff": "Saxophone",
+    "14_TrumpetBbHard.aiff": "Trumpet",
+    "15_TrumpetMuted.aiff": "Trumpet",
+    "16_ViolinMartele.aiff": "Violin",
+    "17_ViolinNoVibe.aiff": "Violin",
+    "comment": "data from McGill University Master Samples (MUMS) library; instrument details and playing techniques are suggested in the file names; crumhorn is a double reed instrument of the woodwind familyFrenchHorn annotated as Horn for consistency; plenum is the fullest combination of stops on the organ; baroque defines a finger style for the recorder, the other style is german."
+}

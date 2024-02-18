@@ -1,0 +1,19 @@
+{
+    "01.W.Violin.aiff": "Violin",
+    "02.W.Vibraphone.aiff": "Vibraphone",
+    "03.W.TubularBellsOR.aiff": "TubularBells",
+    "04.W.Trombone.aiff": "Trombone",
+    "05.W.Oboe.aiff": "Oboe",
+    "06.W.MutedTrumpet.aiff": "Trumpet",
+    "07.W.Piano.aiff": "Piano",
+    "08.W.Flute.aiff": "Flute",
+    "09.W.Cello.aiff": "Cello",
+    "10.W.Trumpet.aiff": "Trumpet",
+    "11.W.Bassoon.aiff": "Bassoon",
+    "12.W.EnglishHorn.aiff": "EnglishHorn",
+    "13.W.FrenchHorn.aiff": "Horn",
+    "14.W.Tuba.aiff": "Tuba",
+    "15.W.Saxophone.aiff": "Saxophone",
+    "16.W.Clarinet.aiff": "Clarinet",
+    "comment": "data from McGill University Master Samples (MUMS) library; clarinet: B-flat clarinet; 06.W.MutedTrumpet.aiff as indicated is a muted trumpet."
+}
