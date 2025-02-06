@@ -54,19 +54,18 @@ def get_audio_embeddings(model: nn.Module, dataset=None):
 
 def extract_dataset_embeddings(model: nn.Module, dataset):
     with torch.no_grad():
-        # Retrieve the expected data type from the model's parameters
-        expected_dtype = next(model.parameters()).dtype
+        
+        model_dtype = next(model.parameters()).dtype
         embeddings = []
         for x in dataset:
-            audio_tensor = torch.tensor(x["audio"])
-            if audio_tensor.dtype != expected_dtype:
-                audio_tensor = audio_tensor.to(expected_dtype)
-            emb = model(audio_tensor).squeeze(0)
-            embeddings.append(emb)
-        # All embeddings should have the same shape
-        if len(set([emb.shape for emb in embeddings])) > 1:
+            audio_tensor = torch.tensor(x["audio"], dtype=model_dtype)
+            embedding = model(audio_tensor).squeeze(0)
+            embeddings.append(embedding)
+        
+        if len(set([embedding.shape for embedding in embeddings])) > 1:
             raise ValueError(
                 "The model is outputting embeddings of different shapes. "
                 + "All embeddings must have the same shape."
             )
+        
         return torch.stack(embeddings)
