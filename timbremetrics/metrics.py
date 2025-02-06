@@ -4,7 +4,7 @@ from typing import Union
 import numpy as np
 import torch, torch.nn.functional as F
 from torchmetrics import Metric
-from torchmetrics.functional import pearson_corrcoef
+from torchmetrics.functional import pearson_corrcoef, pairwise_cosine_similarity
 
 from .utils import list_datasets, load_dissimilarity_matrix
 
@@ -19,6 +19,10 @@ def l2(a, b):
 
 def pairwise_euclidean(a, b, p: int = 2):
     return torch.cdist(a, b, p=p)
+
+
+def pairwise_cosine_distance(a, b):
+    return 1 - pairwise_cosine_similarity(a, b)
 
 
 def min_max_normalization(a):
@@ -75,7 +79,7 @@ class TimbreMetric(Metric):
                 )
 
     def _compute_embedding_distances(self, embeddings: torch.Tensor):
-        if self.distance is pairwise_euclidean:
+        if self.distance in [pairwise_euclidean, pairwise_cosine_distance]:
             return self.distance(embeddings, embeddings)
         else:
             distances = torch.zeros(embeddings.shape[0], embeddings.shape[0])
@@ -119,8 +123,17 @@ class MAE(TimbreMeanErrorMetric):
         super().__init__(dataset, distance, dist_sync_on_step)
 
     def _compute_item_error(self, target: torch.Tensor, distances: torch.Tensor):
-        absolute_error = torch.sum(torch.abs(target - distances))
-        count = torch.sum(torch.ones_like(target).triu(1))
+        """
+        only compute differences on the upper triangle of the matrix, reasons:
+        some dissimilarity matrices have non-zero values on the diagonal
+        distances computed by the pairwise_euclidean function have non-zero values on the lower triangle
+        ---
+        MSE is modified for the same reason
+        """
+        mask = torch.ones_like(target).triu(1)
+        masked_diff = mask * (target - distances)
+        absolute_error = torch.sum(torch.abs(masked_diff))
+        count = torch.sum(mask)
         return absolute_error / count
 
 
@@ -129,8 +142,10 @@ class MSE(TimbreMeanErrorMetric):
         super().__init__(dataset, distance, dist_sync_on_step)
 
     def _compute_item_error(self, target: torch.Tensor, distances: torch.Tensor):
-        squared_error = torch.sum((target - distances) ** 2)
-        count = torch.sum(torch.ones_like(target).triu(1))
+        mask = torch.ones_like(target).triu(1)
+        masked_diff = mask * (target - distances)
+        squared_error = torch.sum((masked_diff) ** 2)
+        count = torch.sum(mask)
         return squared_error / count
 
 
